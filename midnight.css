@@ -48,10 +48,10 @@
 
 	/* animations */
 	/* ALL ANIMATIONS CAN BE DISABLED WITH REDUCED MOTION IN DISCORD SETTINGS */
-	--list-item-transition: 0.2s ease; /* channels/members/settings hover transition */
-	--unread-bar-transition: 0.2s ease; /* unread bar moving into view transition */
-	--moon-spin-transition: 0.4s ease; /* moon icon spin */
-	--icon-spin-transition: 1s ease; /* round icon button spin (settings, emoji, etc.) */
+	--list-item-transition: 0.0s ease; /* channels/members/settings hover transition */
+	--unread-bar-transition: 0.0s ease; /* unread bar moving into view transition */
+	--moon-spin-transition: 0.0s ease; /* moon icon spin */
+	--icon-spin-transition: 0s ease; /* round icon button spin (settings, emoji, etc.) */
 
 	/* corner roundness (border-radius) */
 	--roundness-xl: 22px; /* roundness of big panel outer corners */
@@ -190,7 +190,7 @@ div.message__5126c.replying__5126c::before /* change reply message bar to neutra
 
 /* settings checkbuttons */
 .container__87bf1 {
-	transition: background-color ease 0.3s;
+	transition: background-color ease 0.0s;
 }
 .container__87bf1 path {
 	fill: var(--text-4);
@@ -202,7 +202,7 @@ div.message__5126c.replying__5126c::before /* change reply message bar to neutra
 	fill: var(--accent-3) !important;
 }
 .container__87bf1 > .slider__87bf1 > rect {
-	transition: fill ease 0.3s;
+	transition: fill ease 0.0s;
 }
 
 .mention__3b95d:active /* NEW unread pill when clicked */ {
@@ -768,7 +768,7 @@ button.button__201d5 /* small buttons */,
 }
 .wrapper__6e9f8:hover .childWrapper__6e9f8::before {
 	/* prettier-ignore */
-	transition: background-color 0.15s ease-out, transform var(--moon-spin-transition);
+	transition: background-color 0.0s ease-out, transform var(--moon-spin-transition);
 	transform: rotate(0deg) scale(1);
 }
 .wrapper__6e9f8:hover > .childWrapper__6e9f8::before,
